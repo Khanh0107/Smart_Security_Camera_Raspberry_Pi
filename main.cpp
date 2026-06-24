@@ -1,17 +1,3 @@
-// rtsp_camera_combined.cpp - PUBLISH vao MediaMTX thay vi tu host RTSP server
-//
-// App nay KHONG tu host RTSP server nua (gst-rtsp-server co bug da biet
-// voi dynamic pipeline + client seek, gay "multiple player cannot be
-// played" tren VLC). Thay vao do: app PUBLISH (day) H.264 stream vao
-// MediaMTX qua RTSP bang rtspclientsink. MediaMTX se serve cho VLC/client.
-//
-// YEU CAU: MediaMTX phai dang chay tren Pi truoc khi chay app nay.
-//
-// Build:
-//   g++ rtsp_camera_combined.cpp -o app \
-//       $(pkg-config --cflags --libs gstreamer-1.0 gstreamer-app-1.0 opencv4) \
-//       -lpthread
-
 #include <gst/gst.h>
 #include <gst/app/gstappsink.h>
 #include <gst/app/gstappsrc.h>
