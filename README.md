@@ -14,6 +14,14 @@ A smart camera system built on Raspberry Pi 4 that streams live video over **RTS
 - **Auto File Rotation**: Recordings are automatically split into fixed-length `.mp4` segments, named by timestamp for easy lookup.
 - **Remote Access via Tailscale**: View the stream from outside the local network (mobile data, different Wi-Fi) by connecting through a Tailscale VPN, without port forwarding or exposing RTSP to the public internet.
 
+## Output Products during Operation
+![alt text](Image1.png)
+
+![alt text](Image2.png)
+
+![alt text](Image3.png)
+
+
 ## System Requirements
 
 ### Hardware
