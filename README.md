@@ -15,6 +15,9 @@ A smart camera system built on Raspberry Pi 4 that streams live video over **RTS
 - **Remote Access via Tailscale**: View the stream from outside the local network (mobile data, different Wi-Fi) by connecting through a Tailscale VPN, without port forwarding or exposing RTSP to the public internet.
 
 ## Output Products during Operation
+
+Youtube video demo: [Youtube](https://youtube.com/shorts/g56brN7c-F0?si=FzKeVxVycKwF9Im4)
+
 ![alt text](Image1.png)
 
 ![alt text](Image2.png)
